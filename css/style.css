@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ExtraBold.woff2') format('woff2'),
+        url('Roboto-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Thin.woff2') format('woff2'),
+        url('Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    height: 90px;
+}
+.left { 
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+}
+
+.left .image { 
+
+}
+
+.left .image img { 
+    width: 120px;
+}
+
+.left h1 { 
+
+}
+
+.middle { 
+
+}
+
+.middle ul { 
+    display: flex;
+    gap: 100px;
+    font-size: 28px;
+}
+
+.middle ul li { 
+    animation: pop 0.4s ease-in-out;
+}
+
+.middle ul li a { 
+    color: black;
+   
+}
+@keyframes pop {
+    0%{
+        scale: 0.5;
+    }
+    100% {
+        scale:1;
+    }
+}
+.middle ul li  img {
+    width: 15px;
+    margin-left: 5px;  
+}
+.right { 
+
+}
+
+.right button { 
+    color: white;
+    background-color:black;
+    height: 29px;
+    width: 107px;
+    border: none;
+    border-radius: 18px;
+    font-weight: 600;
+}
+.right button:hover {
+    color: black;
+    background-color: green;
+}
+main { 
+ display: flex;
+    justify-content: space-between; 
+     background-color: rgb(36, 66, 36);
+     height: 58vh;
+    
+}
+
+main div.first { 
+    padding-left: 88px;
+}
+
+main div.first h1 { 
+    font-size: 48px;
+    padding-top: 165px;
+    color: white;
+  
+}
+
+main div.first p { 
+    font-size: 32px;
+    padding-top: 27px;
+    color: #fff;
+}
+main div.second {
+ padding-right: 70px;
+ padding-top: 100px;
+ 
+}
+main div.second div.image {
+    
+}
+main div.second div.image img {
+    border: 22px solid #fff;
+}
+footer { 
+    display: flex;
+    gap: 237px;
+}
+
+footer .one { 
+    padding-left: 60px;
+}
+
+footer .one .top { 
+
+}
+
+footer .one .top .image { 
+
+}
+footer .one .top .image img {
+    width: 190px;
+}
+footer .one .bottom { 
+    text-align: center;
+}
+
+footer .one .bottom h3 { 
+
+}
+
+footer .one .bottom p { 
+    padding-top: 10px;
+}
+
+footer .two { 
+
+}
+
+footer .two .top { 
+
+}
+
+footer .two .top .image { 
+
+}
+footer .two .top .image img {
+    width: 250px;
+}
+footer .two .bottom { 
+    text-align: center;
+}
+
+footer .two .bottom h3 { 
+
+}
+
+footer .two .bottom p { 
+    padding-top: 10px;
+}
+
+footer .three { 
+
+}
+
+footer .three .top { 
+
+}
+
+footer .three .top .image { 
+
+}
+footer .three .top .image img {
+    width: 250px;
+}
+
+footer .three .bottom { 
+    text-align: center;
+}
+
+footer .three .bottom h3 { 
+
+}
+
+footer .three .bottom p { 
+    padding-top: 10px;
+}
+
+footer .four { 
+
+}
+
+footer .four .top { 
+
+}
+
+footer .four .top .image { 
+
+}
+footer .four .top .image img {
+    width: 190px;
+}
+footer .four .bottom { 
+    text-align: center;
+}
+
+footer .four .bottom h3 { 
+
+}
+
+footer .four .bottom p { 
+    padding-top: 10px;
+    position: relative;
+}
+
+.table { 
+    position: absolute;
+    top: 90px;
+    left: 562px;
+   
+}
+
+.table table { 
+    border: 1px solid #fff;
+}
+
+.table table thead { 
+
+}
+
+.table table thead tr { 
+
+}
+
+.table table thead tr th { 
+    color: #fff;
+}
+
+.table table thead tr th br { 
+
+}
+
+.table table tbody { 
+
+}
+
+.table table tbody tr { 
+
+}
+
+.table table tbody tr td { 
+    color: #fff;
+}
